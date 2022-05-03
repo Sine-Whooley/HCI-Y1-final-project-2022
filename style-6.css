@@ -1,0 +1,35 @@
+<style> 
+*{
+}
+body{
+  background-color: grey;
+}
+
+.header{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 35px;
+}
+.navBar{
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+}
+.navBar a {
+  color: darkgrey;
+  text-align: center;
+  padding: 14px, 16px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.navBar a:hover{
+  background-color: green;
+  color: black;
+} 
+.navBar a.active{
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+</style>
